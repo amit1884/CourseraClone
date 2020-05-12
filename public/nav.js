@@ -1,0 +1,12 @@
+$(document).ready(function(){
+    $(".hamburger").click(function(){
+        $(".mobile-nav").toggleClass("active");
+        $('#ham').css('display','none');
+        $('#close').css('display','block');
+      });
+      $(".cross").click(function(){
+        $(".mobile-nav").toggleClass("active");
+        $('#ham').css('display','block');
+        $('#close').css('display','none');
+      });
+})
